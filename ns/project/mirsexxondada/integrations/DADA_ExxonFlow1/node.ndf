@@ -114,7 +114,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1718861207679</value>
+    <value name="lastModifiedDate">1718863238134</value>
     <value name="displayName">DADA_ExxonFlow1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -124,6 +124,7 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -145,6 +146,8 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.0</value>
       </record>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -166,6 +169,8 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <Boolean name="allowCustomOperations">true</Boolean>
         <number name="ui_step_index" type="Long">2</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.1</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
@@ -173,6 +178,7 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/1/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -191,10 +197,13 @@
         <value name="nodePathNew">1.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">5</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1.0</value>
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">EXIT</value>
+        <value name="nodePathForDebug">1.1</value>
       </record>
     </record>
   </record>
