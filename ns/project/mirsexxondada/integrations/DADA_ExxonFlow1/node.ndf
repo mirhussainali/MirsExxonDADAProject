@@ -114,7 +114,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1718863238134</value>
+    <value name="lastModifiedDate">1718863768489</value>
     <value name="displayName">DADA_ExxonFlow1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -168,9 +168,63 @@
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">3</number>
         <Boolean name="allowCustomOperations">true</Boolean>
-        <number name="ui_step_index" type="Long">2</number>
+        <number name="ui_step_index" type="Long">4</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">0.1</value>
+      </record>
+      <record name="/0/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">ExxonDemo</value>
+          <value name="groupName">ExxonDemo;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">exxonmobil.utils.date:getDayOfWeek</value>
+          <value name="serviceName">exxonmobil.utils.date:getDayOfWeek</value>
+          <value name="displayName">getDayOfWeek</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <value name="nodePathNew">0.2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <number name="ui_step_index" type="Long">4</number>
+      </record>
+      <record name="/0/3" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">5</number>
+        <value name="nodePathNew">0.3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">5</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <record name="/0/3/0" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">concat</value>
+          <value name="serviceName">pub.string:concat</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">string</value>
+          <value name="groupDisplayName">String</value>
+        </record>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
