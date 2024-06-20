@@ -46,3 +46,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.927
+- serviceName: exxonmobil.utils.date:getPartOfDay
+  packages:
+  - name: ExxonDemo
+    version: "1.0"
