@@ -36,3 +36,13 @@ services:
   packages:
   - name: ExxonDemo
     version: "1.0"
+- serviceName: project.mirsexxondada.integrations:DADA_ExxonFlow2
+  packages:
+  - name: MirsExxonDADAProject
+    version: "1.0"
+  - name: ExxonDemo
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
