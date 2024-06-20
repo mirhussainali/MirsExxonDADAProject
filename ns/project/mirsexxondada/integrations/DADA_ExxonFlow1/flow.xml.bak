@@ -328,6 +328,12 @@
 
 <MAPDELETE FIELD="/concatString;1;0">
 </MAPDELETE>
+
+<MAPDELETE FIELD="/inputList;1;1">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/separator;1;0">
+</MAPDELETE>
 </MAP>
 </INVOKE>
 
