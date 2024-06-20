@@ -114,7 +114,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1718863801386</value>
+    <value name="lastModifiedDate">1718864329987</value>
     <value name="displayName">DADA_ExxonFlow2</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -192,6 +192,8 @@
         <number name="lineNumberForDebug" type="Long">4</number>
         <Boolean name="allowCustomOperations">true</Boolean>
         <number name="ui_step_index" type="Long">4</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.2</value>
       </record>
       <record name="/0/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -210,6 +212,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0.3</value>
       </record>
       <record name="/0/3/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -221,8 +224,29 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0.3.0</value>
       </record>
       <record name="/0/3/1" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/0/4" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">6</number>
+        <value name="nodePathNew">0.4</value>
+        <number name="nodeIndex" type="Long">4</number>
+        <number name="lineNumberForDebug" type="Long">6</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
@@ -257,11 +281,6 @@
         <value name="name">EXIT</value>
         <value name="nodePathForDebug">1.1</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
