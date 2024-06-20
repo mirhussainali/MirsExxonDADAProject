@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: MirsExxonDADAProject
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali/MirsExxonDADAProject
+  gitUsername: mirhussainali
+  gitBranch: main
