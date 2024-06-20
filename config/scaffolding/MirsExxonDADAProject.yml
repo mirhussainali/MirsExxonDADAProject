@@ -24,3 +24,7 @@ services:
   packages:
   - name: ExxonDemo
     version: "1.0"
+- serviceName: exxonmobil.utils.string:multiConcat
+  packages:
+  - name: ExxonDemo
+    version: "1.0"
