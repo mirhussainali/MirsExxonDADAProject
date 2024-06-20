@@ -8,7 +8,19 @@ packages:
   gitUsername: mirhussainali
   gitBranch: main
 - name: ExxonDemo
+  version: "1.0"
   gitServerName: MirsGit
   gitUrl: https://github.com/mirhussainali
   gitUsername: mirhussainali
   gitBranch: main
+services:
+- serviceName: project.mirsexxondada.integrations:DADA_ExxonFlow1
+  packages:
+  - name: MirsExxonDADAProject
+    version: "1.0"
+  - name: ExxonDemo
+    version: "1.0"
+- serviceName: exxonmobil.flowservices:welcomeService
+  packages:
+  - name: ExxonDemo
+    version: "1.0"
