@@ -20,6 +20,10 @@ services:
     version: "1.0"
   - name: ExxonDemo
     version: "1.0"
+- serviceName: pub.flow:setCustomContextID
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1969
 - serviceName: exxonmobil.utils.string:multiConcat
   packages:
   - name: ExxonDemo
