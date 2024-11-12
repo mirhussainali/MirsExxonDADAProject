@@ -14,39 +14,33 @@ packages:
   gitUsername: mirhussainali
   gitBranch: main
 services:
-- serviceName: project.mirsexxondada.integrations:DADA_ExxonFlow1
+- serviceName: project.mirsexxondada.integrations:DADA_ExxonFlow3
   packages:
   - name: MirsExxonDADAProject
     version: "1.0"
-  - name: ExxonDemo
-    version: "1.0"
-- serviceName: exxonmobil.flowservices:welcomeService
-  packages:
   - name: ExxonDemo
     version: "1.0"
 - serviceName: exxonmobil.utils.string:multiConcat
   packages:
   - name: ExxonDemo
     version: "1.0"
-- serviceName: pub.flow:getLastFailureCaught
+- serviceName: exxonmobil.flowservices:welcomeService
   packages:
-  - name: WmPublic
-    version: 11.0.0.0.927
+  - name: ExxonDemo
+    version: "1.0"
 - serviceName: exxonmobil.utils.date:getDayOfWeek
   packages:
   - name: ExxonDemo
     version: "1.0"
-- serviceName: project.mirsexxondada.integrations:DADA_ExxonFlow2
+- serviceName: exxonmobil.utils.date:getPartOfDay
   packages:
-  - name: MirsExxonDADAProject
-    version: "1.0"
   - name: ExxonDemo
     version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.0.0.0.927
-- serviceName: exxonmobil.utils.date:getPartOfDay
+    version: 11.1.0.0.1969
+- serviceName: pub.flow:getLastFailureCaught
   packages:
-  - name: ExxonDemo
-    version: "1.0"
+  - name: WmPublic
+    version: 11.1.0.0.1969
